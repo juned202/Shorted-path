@@ -26,7 +26,8 @@ class RequestData(BaseModel):
     end: Cell
 
 
-directions = [(0,1), (1,0), (0,-1), (-1,0)]
+directions = [(0,1), (1,0), (0,-1), (-1,0)] 
+#  if want to traverse diagonal then , (1,1), (-1,-1), (1,-1), (-1,1) add this in direction
 
 def bfs(grid_size, start: Cell, end: Cell):
     queue = deque([(start, [start])])
