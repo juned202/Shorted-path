@@ -1,15 +1,23 @@
 # Shorted path
+## Setup Instructions
 
-Create A react app using,
+1. **Create a React App**  
+   npx create-react-app shortest-path
 
-cmd: npx create-react-app shortest-path
+2. **Replace `App.js`**  
+   Replace the generated `App.js` file with the provided `App.js`.
 
-replace App.js with the given App.js
+3. **Run the Frontend**  
+   cd shortest-path  
+   npm start
 
-run react file using npm start
+4. **Run the Backend**  
+   Ensure you have Python and Uvicorn installed, then run:  
+   uvicorn main:app --port 8080 --reload
 
-then run backend using : uvicorn main:app --port 8080  --reload
+Now, your application should be running successfully.
 
 
  
-<img width="408" alt="image" src="https://github.com/user-attachments/assets/d7a42be7-5eb9-4da5-8228-5eefc8cc1567" />
+<img width="950" alt="image" src="https://github.com/user-attachments/assets/50e0238d-e766-45f7-a24c-f67522c32712" />
+
